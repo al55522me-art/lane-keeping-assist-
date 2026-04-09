@@ -4,6 +4,19 @@ Lane Keeping Assist with U-Net Segmentation  Real-time lane detection and steeri
 Pipeline: Input video → U-Net mask → Offset calculation → Commands → Real-time dashboard with FPS, angle, confidence.
 Processing stages: Raw input → Binary lane mask → Overlay with offset metrics and visualization.
 
+## Processing Pipeline
+
+<div align="center">
+
+![Lane detection pipeline](analysis/photo_2026-04-09-15.24.59.jpeg)
+
+| Исходное изображение | Предсказанная маска | Наложение на кадр |
+|---------------------|-------------------|------------------|
+| **Raw Input** | **U-Net Binary Mask** | **Lane Overlay** |
+
+</div>
+
+
 # Analyzed video example
 
 <div align="center">
