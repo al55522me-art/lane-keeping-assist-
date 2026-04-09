@@ -8,7 +8,7 @@ Processing stages: Raw input → Binary lane mask → Overlay with offset metric
 
 <div align="center">
 
-![Lane detection pipeline](analysis/photo_2026-04-09-15.24.59.jpeg)
+![Lane detection pipeline](analysis/photo_2026-04-09 15.24.59.jpeg)
 
 | Исходное изображение | Предсказанная маска | Наложение на кадр |
 |---------------------|-------------------|------------------|
