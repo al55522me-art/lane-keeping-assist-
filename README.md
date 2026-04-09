@@ -29,16 +29,16 @@ Processing stages: Raw input → Binary lane mask → Overlay with offset metric
 
 ## Quick start 
 
-1. Clone
+1. Clone /n
 git clone https://github.com/YOUR_USERNAME/lane-keeping-assist.git
 cd lane-keeping-assist
 
-2. Install (Mac M4)
+2. Install /n
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install -r requirements.txt
 
-3. Analyze video
+3. Analyze video /n
 python analysis/video_analyzer.py test_video.mp4
 
-4. Live webcam demo
+4. Live webcam demo /n
 python live_demo/lane_keeping.py
