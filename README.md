@@ -30,8 +30,11 @@ Processing stages: Raw input → Binary lane mask → Overlay with offset metric
 ## Key findings
 
 •	U-Net achieves stable 27 FPS real-time inference on Apple M4 with MPS acceleration
+
 •	Model confidence remains consistent across diverse lighting/weather conditions
+
 •	Zero lane departure warnings during 26-second test sequence
+
 •	Lateral offset calculation enables precise LEFT/RIGHT/STRAIGHT steering decisions
 
 ## Quick start 
